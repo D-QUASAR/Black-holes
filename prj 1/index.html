@@ -4,78 +4,189 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Document</title>
- <!-- custom css -->
- <link rel="stylesheet" href="style.css">
  <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-
+<!-- custom CSS -->
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
- <header>
-  <!-- navbar -->
- 
+ <!-- header starts -->
  <header style="width: 100%; height: 100vh;">
-
- <nav class="navbar navbar-expand-xl navbar-dark ">
-<img src="./html5.jpg" alt="" class="navbar-brand">
+ <!-- navbar starts -->
+ <nav class="navbar navbar-expand-lg navbar-dark ">
+  <img src="./Nasa logo.jpg" alt="NASA logo" class="navbar-nav">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="navbar-collapse" id="myNavbar">
    <ul class="navbar-nav mx-auto mr-auto">
     <li class="nav-item">
-     <a href="#banner" class="nav-link">Home</a>
+     <a href="./index.html" class="nav-link">Home</a>
     </li>
     <li class="nav-item">
-     <a href="#info" class="nav-link">Black Holes</a>
+     <a href="#register" class="nav-link">Register</a>
     </li>
    </ul>
   </div>
  </nav>
- 
-
+ <!-- navbar ends -->
+ <!-- banner starts -->
  <section class="banner d-flex justify-content-center align-items-center pl-2 pl-lg-4" id="banner">
   
-     <h1 class="text-capitalize mb-0 display-4 ground">About Black Holes</h1>
-     <a class="btn btn-dark" href="#info"role="button">
-      Check out black holes
+     <h1 class="text-capitalize mb-0 display-4">Register for NASA</h1>
+     <p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     </p>     <p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     </p>
+          <p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     </p>
+          <p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     </p>
+          <p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     </p>
+          <p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     </p>
+          <p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     </p>
+          <p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     </p>
+     <a class="btn btn-danger" href="#register"role="button">
+      Register Now
      </a>
    </section>
-
+   <div class="div"></div>
+ <!-- banner ends -->
  </header>
  <!-- header ends -->
- <!-- black hols start -->
- <section class="d-flex align-items-center  row banner darken" id="info">
-  <div class="col-md-6 d-flex justify-content-center" style=" text-align:center;">
-   <h1 style="text-align: center;">Black Holes</h1>
+ <section class="row register gush full d-flex align-items-center" id="register">
+ <div class="col d-flex justify-content-center align-items-center mr-auto">
+  <h1>Register to NASA</h1>
+ </div>
+ <div class="col">
+<form class="needs-validation" novalidate   action="https://formspree.io/f/moqpvkka"
+  method="POST">
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control"  id="validationCustom01" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" name="name2" id="validationCustom02" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
   </div>
-  <div class="col d-flex justify-content-center">
-   <p class="lead bg-dark">
-       A black hole is a region in space where the pulling force of gravity
-     is so strong that light is not able to escape. The strong gravity 
-     occurs because matter has been pressed into a tiny space. This 
-     compression can take place at the end of a star's life. Some black 
-     holes are a result of dying stars.
-     <br>
-     <img src="./hole.jpg" alt="" class="img-fluid lighten" style="float: right; margin: 20px;">
-     <br>
-       Because no light can escape, black holes are invisible. However,
-     space telescopes with special instruments can help find black holes.
-     They can observe the behavior of material and stars that are very 
-     close to black holes.
-     <br>
-     
-      <a href="https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-a-black-hole-58.html" target = "_blank"class="btn btn-danger">Read more</a>
-     
-   </p> 
-   
-  </div>
- </section>
-   <!-- JS, Popper.js, and jQuery -->
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">City</label>
+      <input type="text" class="form-control" name="city" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">DOB</label>
+      <input type="date" class="form-control" name="dob" id="validationCustom04" required>
+      <div class="invalid-feedback">
+        Please select a valid Date.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05">Age</label>
+      <input type="number" class="form-control" name="age" id="validationCustom05" required>
+      <div class="invalid-feedback">
+        Please provide a valid Age.
+      </div>
+    </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+  
+ </div>
+</section>
+<!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
 </body>
 </html>

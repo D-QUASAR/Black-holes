@@ -1,50 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
-body{
- background: snow!important;
- color: whitesmoke!important;
-}
-h1,h2,h3,h4,h5,h6{
-font-family: 'Sansita Swashed',
-cursive;
-}
-p,a,ol,ul,li{
- font-family: 'Secular One',
- sans-serif;
-}
 nav {
  position: fixed !important;
  top: 0 !important;
  width: 100% !important;
  z-index: 100000000000;
  background-color: #000;
- border-bottom: orangered ridge 20px;
- height: fit-content;
-}
- .toggle-btn {
+ border-bottom: orangered solid 10px;
+}hhh
+
+.toggle-btn {
  border: none !important;
 }
 
 .logo-btn {
  height: 5rem;
 }
-header{
-max-width: 100vw;
-max-height: 100vh;
+
+header {
+ min-height: 100vh;
+ min-width: 100vw;
 }
 
 .banner {
- min-height: calc(100vh);
+min-width: calc(100%);
+min-height: calc(125%);
+ background: url("./nasa.jpg");
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ 
+ text-align: center;
+ color: white;
+}
+.display-4{
+ background-color: black;
+}
+.banner-bcg {
  min-width: calc(100vw);
- background: url("./banner-bcg.jpg");
+ background: url("./banner.png");
  background-position: center;
  background-size: cover;
  background-attachment: fixed;
  background-repeat: no-repeat;
  padding-top: 10rem;
-
+ text-align: center;
+ color: whitesmoke;
 }
 
+.darken {
+ opacity: 0.8;
+}
 
 .gush {
  font-weight: bolder !important;
@@ -59,20 +64,88 @@ li {
  padding-bottom: 100px !important;
 }
 
-html{
- scroll-behavior: smooth;
+.lead {
+ font-size: 1.5rem;
 }
-.ground{
- background:black!important;
+
+p {
+ padding-left: 2rem;
+ padding-bottom: 3rem;
 }
-a,button,html{
- scroll-behavior: smooth!important;
+
+strong {
+ font-weight: bold;
+ font-size: x-large !important;
+ color: blueviolet;
 }
-.darken{
- opacity: 0.7;
+
+.bottom {
+ padding-bottom: 3px !important;
+}
+
+.padding {
+ padding-left: 2px !important;
+ padding-right: 2px !important;
+}
+
+.left {
+ padding-left: 50px !important;
+}
+
+body {
+ font-family: "Roboto", sans-serif;
 
 }
-.lighten{
- opacity: 2;
 
+.carousel-background {
+ background: url(./images/carousel-section.jpg);
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ padding-top: 10rem;
+ text-align: center;
+ color: whitesmoke;
+
+}
+
+.register-bg {
+ background: url(./images/register-bg.jpg);
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ padding-top: 10rem;
+ text-align: center;
+ color: whitesmoke;
+}
+
+.dark {
+ opacity: 1 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.div{
+ background-color:orangered;
+ height: 20px;
+}
+.register {
+  min-height: calc(100%);
+ background: url(./Register\ banner.jpg);
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ padding-top: 10rem;
+ text-align: center;
+ color: whitesmoke;
 }
